@@ -152,3 +152,44 @@ body {
 .person3 {
     animation-delay: 1s;
 }
+
+.readme-button {
+    display: block; /* Make the button a block-level element */
+    width: fit-content; /* Adjust the width to fit the content */
+    margin: 20px auto; /* Center the button horizontally */
+    padding: 10px 20px;
+    background-color: #ffeb3b;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center; /* Center the text inside the button */
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer; /* Ensure the button is clickable */
+}
+
+.readme-button:hover {
+    background-color: #ff4500;
+    color: #fff;
+}
+
+.readme-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.readme-container h1, .readme-container h2 {
+    color: #333;
+}
+
+.readme-container p, .readme-container ul, .readme-container ol {
+    color: #555;
+}
+
+.readme-container ul, .readme-container ol {
+    margin-left: 20px;
+}
